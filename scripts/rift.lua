@@ -1,4 +1,3 @@
--- [[ Oh no someone will leak this simple ui !! ]] --
 local Rift = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local BGFrame = Instance.new("Frame")
@@ -119,39 +118,13 @@ Title.TextSize = 14
 
 Execute.MouseButton1Click:Connect(function()
     local scriptText = Cheat.Text
-
-    local function containsUnsupportedUrl(code)
-        local pattern = "loadstring%s*%(([^)]*)%)"
-        
-
-        while true do
-            local startIdx, endIdx, urlCode = code:find(pattern)
-            if not startIdx then break end
-
-            if urlCode:find("https://raw.githubusercontent.com/shlexware/Orion/main/source") then
-                return true
-            end
-        end
-        return false
-    end
-
-    if containsUnsupportedUrl(scriptText) then
-        warn("Error: Orion Library is not supported and will crash if this check doesnt exist!")
-    game:GetService("StarterGui"):SetCore("SendNotification", { 
-        Title = "Rift";
-        Text = "We blocked Orion Library due to crashing issue. Thankyou";
-        Duration = 5;
-    })
-        return
-    end
-
     loadstring(scriptText)()
 end)
 
 Clear.MouseButton1Click:Connect(function()
-	Cheat.Text = ""
+    Cheat.Text = ""
 end)
 
-Paste.MouseButton1Click:Connect(function()
-	Cheat.Text = getclipboard()
+Paste.MouseButton1Click : Connect(function()
+    Cheat.Text = getclipboard()
 end)
