@@ -13,6 +13,8 @@ AureliaBeta.BackgroundColor3 = Color3.new(0.054902, 0.054902, 0.054902)
 AureliaBeta.BorderSizePixel = 0
 AureliaBeta.BorderColor3 = Color3.new(0, 0, 0)
 AureliaBeta.Parent = ScreenGui
+AureliaBeta.Active = true
+AureliaBeta.Draggable = true
 
 local UICorner = Instance.new("UICorner")
 UICorner.Name = "UICorner"
