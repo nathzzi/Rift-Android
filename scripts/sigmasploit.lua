@@ -1,5 +1,5 @@
 setreadonly(client, false);
-client.pushautoexec()
+client.enableautoexec()
 setreadonly(client, true);
 
 repeat task.wait() until game:IsLoaded()
