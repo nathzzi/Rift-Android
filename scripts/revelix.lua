@@ -1,3 +1,7 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FeliciaXxxTop/ReveliX/refs/heads/main/TestUI.lua"))()
-wait(3)
-game:GetService("Players").LocalPlayer:Kick("I don't like people stalking my GitHub, Clock ;)");
+game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "Revelix has been discontinued!",
+Text = "You’ll now be kicked.", 
+Duration = 50
+})
+wait(5)
+game:GetService("Players").LocalPlayer:Kick("Revelix Android has been discontinued");
