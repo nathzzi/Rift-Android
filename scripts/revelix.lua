@@ -221,7 +221,8 @@ CheckKeyButton.MouseButton1Click:Connect(function()
             X:SaveKey(key)  
             task.wait()
             Frame:Destroy()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/FeliciaXxxTop/ReveliX/refs/heads/main/TestUI.lua"))()
+            setclipboard("https://getrift.lol/")
+            game:GetService("Players").LocalPlayer:Kick("Revelix has been discontinued. Please download Rift at https://getrift.lol/")
         else
             local premiumResponse = KeyReveliX.validatePremiumKey(key)
             if premiumResponse == trueData then
@@ -230,7 +231,8 @@ CheckKeyButton.MouseButton1Click:Connect(function()
                 X:SaveKey(key)  
                 task.wait()
                 Frame:Destroy()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/FeliciaXxxTop/ReveliX/refs/heads/main/TestUI.lua"))()
+                setclipboard("https://getrift.lol/")
+                game:GetService("Players").LocalPlayer:Kick("Revelix has been discontinued. Please download Rift at https://getrift.lol/")
             else
                 ResultLabel.Text = "Invalid Key!"
                 ResultLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
