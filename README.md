@@ -3,12 +3,10 @@ Welcome to official **Rift Android** GitHub Repository. Feel free to wander arou
 
 # 🌟 What can we offer?
 **- Alot of custom functions**
-
 **- Great stability**
-
 **- User-Friendly And Beautiful Interface**
 
 # 🌐 Contact us
-Website : https://myelin.lol/
+Website : https://getrift.lol/
 
 Discord : https://discord.gg/qHYpUczaPD
