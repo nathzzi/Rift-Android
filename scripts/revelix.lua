@@ -8,7 +8,7 @@ end
 
 local playerGui = Player:FindFirstChild("PlayerGui") or Player:WaitForChild("PlayerGui")
 
-local KeyReveliX = loadstring(game:HttpGet("https://cdn.keyguardian.org/library/v1.0.0.lua"))()
+local KeyReveliX = loadstring(game:HttpGet('https://cdn.keyguardian.org/library/v2.lua'))()
 local trueData = "729b2d0813534812951c1ead7ee7e10a"
 local falseData = "a9051db43f4e452fa47e4c81a0727cb6"
 
