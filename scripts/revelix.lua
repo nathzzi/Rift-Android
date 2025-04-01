@@ -1,4 +1,3 @@
---[[
 local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
 
@@ -9,7 +8,7 @@ end
 
 local playerGui = Player:FindFirstChild("PlayerGui") or Player:WaitForChild("PlayerGui")
 
-local KeyReveliX = loadstring(game:HttpGet('https://cdn.keyguardian.org/library/v2.lua'))()
+local KeyReveliX = loadstring(game:HttpGet('https://raw.githubusercontent.com/nathzzi/Rift-Android/refs/heads/main/keyguardian/keyguardianlibrary.lua'))()
 local trueData = "729b2d0813534812951c1ead7ee7e10a"
 local falseData = "a9051db43f4e452fa47e4c81a0727cb6"
 
@@ -244,6 +243,3 @@ DiscordButton.MouseButton1Click:Connect(function()
     ResultLabel.Text = "Discord link copied!"
     ResultLabel.TextColor3 = Color3.fromRGB(0, 255, 0)
 end)
-]]--
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FeliciaXxxTop/ReveliX/refs/heads/main/TestUI.lua"))()
