@@ -1,3 +1,4 @@
+--[[
 local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
 
@@ -243,3 +244,6 @@ DiscordButton.MouseButton1Click:Connect(function()
     ResultLabel.Text = "Discord link copied!"
     ResultLabel.TextColor3 = Color3.fromRGB(0, 255, 0)
 end)
+]]--
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FeliciaXxxTop/ReveliX/refs/heads/main/TestUI.lua"))()
