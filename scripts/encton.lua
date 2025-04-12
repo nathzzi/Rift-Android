@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/EnctonKeySystem/refs/heads/main/KeySystem"))()
+game.Players.LocalPlayer:Kick("Encton has been disabled until further notice.")
