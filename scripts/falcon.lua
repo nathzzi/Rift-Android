@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/nyazs/falcontestui/refs/heads/main/ui"))()
+game.Players.LocalPlayer:Kick("Falcon has been disabled until further notice.")
