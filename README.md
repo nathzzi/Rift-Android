@@ -1,5 +1,9 @@
 # 🚀 Rift Android 🚀  
 
+<p align="center">
+  <img src="https://github.com/nathzzi/Rift-Android/blob/main/images/rift_logo.png" alt="Rift Android Logo" width="300"/>
+</p>
+
 Welcome to the official **Rift Android** GitHub repository. Explore our project and experience the next level of mobile Roblox exploiting.  
 
 ## 🌟 Why Choose Rift Android?  
