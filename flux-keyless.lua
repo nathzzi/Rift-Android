@@ -1,4 +1,13 @@
-
+repeat wait() until game:IsLoaded()
+wait(1)
+init_fluxus()
+getgenv().init_fluxus = nil
+local stq = stepped_queue_hide;
+wait(1)
+game:GetService('RunService').Stepped:connect(stq)
+getgenv().stepped_queue_hide = nil
+getgenv().UPDATED_FLUXUS = true;
+wait(1)
 if FLUX_ID == "db4701c676797797d49f327174873408cab79da46a315b72d3643cb830e050fe4b9f779e7750389d26da5a5156f9a36d" 
 or FLUX_ID == "48bceadda325229ddf4750817d2334dd0908f4a0557e89f08aef2559f4d99d9cbd7312886770246fd57012aaf48c3a50" 
 or string.find(FLUX_ID, "punkteam")
